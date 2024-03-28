@@ -6,34 +6,36 @@
 
 body {
   font-family: 'Roboto';
-  background-color: black;
+  background-color: rgb(10, 8, 8);
+  color: #fff;
+  padding: 5px;
 }
 
 /* --------------------------------------------- */
-body {
+/* body {
   padding: 20px;
   background-color: #ffffff;
-}
+} */
 
-.btn__start{
+.btn__start {
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 20px;
   border: 1px solid black;
   cursor: pointer;
-  color:#fff;
+  color: #fff;
   background-color: #222121;
   transition: background-color .5s ease-in-out;
-  color: .5s ease-in-out ;
+  color: .5s ease-in-out;
 }
 
-.btn__start:hover{
+.btn__start:hover {
   background-color: #ffffff;
-  color:#000;
+  color: #000;
 }
 
 
-.card__student{
+.card__student {
   max-width: 200px;
   padding: 10px;
   margin-bottom: 30px;
@@ -42,11 +44,51 @@ body {
 
 }
 
-.down {
-  order:20;
+h2 {
+  font-size: calc(2.325rem + .9vw);
 }
 
-.list-group{
+.down {
+  order: 20;
+}
+
+.list-group {
   gap: 10px;
 }
 
+.nav {
+  color: #fff;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: #ffffff;
+
+}
+
+@media(max-width: 496px) {
+
+  h2 {
+    text-align: center;
+  }
+
+  .input-group-append,
+  .btn {
+    width: 100%;
+  }
+
+  .nav{
+    flex-direction: column;
+  }
+
+  .list-group-item{
+    padding-right: 2px;
+  }
+  .btn-group {
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+}
