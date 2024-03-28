@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto';
+  background-color: black;
+}
+
+/* --------------------------------------------- */
+body {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.btn__start{
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  color:#fff;
+  background-color: #222121;
+  transition: background-color .5s ease-in-out;
+  color: .5s ease-in-out ;
+}
+
+.btn__start:hover{
+  background-color: #ffffff;
+  color:#000;
+}
+
+
+.card__student{
+  max-width: 200px;
+  padding: 10px;
+  margin-bottom: 30px;
+  background-color: #a7a7a7;
+  border-radius: 20px;
+
+}
+
+.down {
+  order:20;
+}
+
+.list-group{
+  gap: 10px;
+}
+
